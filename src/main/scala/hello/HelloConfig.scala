@@ -14,5 +14,4 @@ import org.springframework.context.annotation.ComponentScan
 @EnableAutoConfiguration
 @ComponentScan
 class HelloConfig {
-
 }
