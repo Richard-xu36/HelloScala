@@ -1,0 +1,15 @@
+package hello
+
+class UserCache {
+   val map_ = Map[String, User]()
+   def GetUser(name : String) : User = {
+     return map_[name];
+   }
+   def GetUser(name : String) : User = {
+     return map_[name];
+   }
+}
+
+// Singleton
+object UserCache {
+}
